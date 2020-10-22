@@ -1,6 +1,6 @@
-const embedYouTube = require("eleventy-plugin-youtube-embed");
+import embedYouTube from "eleventy-plugin-youtube-embed";
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('admin')
   eleventyConfig.addPlugin(embedYouTube);
