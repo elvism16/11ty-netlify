@@ -1,9 +1,6 @@
-const embedYouTube = require('eleventy-plugin-youtube-embed');
-
-export default function(eleventyConfig) {
+module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('admin')
-  eleventyConfig.addPlugin(embedYouTube);
 
   const {
     DateTime
@@ -23,4 +20,3 @@ export default function(eleventyConfig) {
   });
 
 };
-
