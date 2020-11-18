@@ -4,6 +4,16 @@ layout: layouts/base.njk
 <h2>{{ title }}</h2>
 <h3>{{ date | readableDate }}</h3>
 <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
-<img src="{{ featuredImage2 | url }}" alt="{{ featuredImage2 }}"></img>
+
+<div class="teaser">
+  <div class="teaser__media">
+    <img src="{{ featuredImage2 | url }}" alt="{{ featuredImage2 }}"></img>
+  </div>
+  <div class="teaser__content">
+    <h3>This is the teasers headline</h3>
+    <p>This is the teasers text. More to come...</p>
+  </div>
+</div>
+
 <p>{{ content | safe }}</p>
 <img src="{{ footerImage | url }}" alt="{{ footerImage }}"></img>

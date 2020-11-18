@@ -6,4 +6,3 @@ date: 2020-04-18
 featuredImage: /images/uploads/image1.jpg
 ---
 Hello, here is the body of the post!
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
