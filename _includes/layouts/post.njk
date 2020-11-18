@@ -5,15 +5,7 @@ layout: layouts/base.njk
 <h3>{{ date | readableDate }}</h3>
 <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
 
-<div class="teaser">
-  <div class="teaser__media">
-    <img src="{{ teaserImage | url }}" alt="{{ teaserImage }}"></img>
-  </div>
-  <div class="teaser__content">
-    <h3>{{ teaserTitle }}</h3>
-    <p>{{ teaserText }}</p>
-  </div>
-</div>
+{% include "../components/teaser.njk" %}
 
 <p>{{ content | safe }}</p>
 <img src="{{ footerImage | url }}" alt="{{ footerImage }}"></img>
