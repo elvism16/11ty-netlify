@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: My first post
+title: First content
 description: The first post on the Eleventy + Netlify CMS from scratch blog
 date: 2020-04-18
 featuredImage: /images/uploads/image1.jpg
